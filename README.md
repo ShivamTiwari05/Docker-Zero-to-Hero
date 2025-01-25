@@ -227,7 +227,7 @@ sudo usermod -aG docker ubuntu
 
 In the above command `ubuntu` is the name of the user, you can change the username appropriately.
 
-**NOTE:** : You need to logout and login back for the changes to be reflected.
+**NOTE:** : You need to logout and login back for the changes to be reflected or if you want to apply the group change without logging out completely, you can use the "newgrp docker" command in the same session.
 
 
 ### Docker is Installed, up and running 🥳🥳
